@@ -1,7 +1,7 @@
 import "./App.css";
 import CheckIcon from "@mui/icons-material/Check";
-import ClearIcon from '@mui/icons-material/Clear';
-import Button from '@mui/material/Button';
+import ClearIcon from "@mui/icons-material/Clear";
+import Button from "@mui/material/Button";
 
 export function Day26() {
   return (
@@ -14,21 +14,23 @@ export function Day26() {
           </h1>
         </div>
         <hr />
-        <div >
-            <div>
-            <p> <CheckIcon /> Single User</p>
-            <p><CheckIcon />5GB Storage</p>
-            <p><CheckIcon />Unlimited Public Projects</p>
-            <p><CheckIcon />Community Access</p>
-            </div>
-            <div id="blurelements">
-            <p><ClearIcon/>Unlimited Private Projects</p>
-            <p><ClearIcon/>Dedicated Phone Support</p>
-            <p><ClearIcon/>Free Subdomain</p>
-            <p><ClearIcon/>Monthly Satus Reports</p>
-            </div>
-            
-            <Button id="button"variant="contained">Contained</Button>
+        <div>
+          <div>
+            <p>✔ Single User</p>
+            <p>✔ 5GB Storage</p>
+            <p>✔ Unlimited Public Projects</p>
+            <p>✔ Community Access</p>
+          </div>
+          <div id="blurelements">
+            <p>✖ Unlimited Private Projects</p>
+            <p>✖ Dedicated Phone Support</p>
+            <p>✖ Free Subdomain</p>
+            <p>✖ Monthly Satus Reports</p>
+          </div> 
+
+          <Button id="button" variant="contained">
+            Contained
+          </Button>
         </div>
       </div>
 
@@ -40,19 +42,23 @@ export function Day26() {
           </h1>
         </div>
         <hr />
-        <div >
-            <p> <CheckIcon /> <b>5 Users</b></p>
-            <p><CheckIcon />5GB Storage</p>
-            <p><CheckIcon />Unlimited Public Projects</p>
-            <p><CheckIcon />Community Access</p>
-            <p><CheckIcon />Unlimited Private Projects</p>
-            <p><CheckIcon />Dedicated Phone Support</p>
-            <p><CheckIcon />Free Subdomain</p>
-            <div id="blurelements">
-            <p><ClearIcon/>Monthly Satus Reports</p>
-            </div>
-            
-            <Button id="button" variant="contained">Contained</Button>
+        <div>
+          <p>
+            <b>✔ 5 Users</b>
+          </p>
+          <p>✔ 5GB Storage</p>
+          <p>✔ Unlimited Public Projects</p>
+          <p>✔ Community Access</p>
+          <p>✔ Unlimited Private Projects</p>
+          <p>✔ Dedicated Phone Support</p>
+          <p>✔ Free Subdomain</p>
+          <div id="blurelements">
+            <p>✖ Monthly Satus Reports</p>
+          </div>
+
+          <Button id="button" variant="contained">
+            Contained
+          </Button>
         </div>
       </div>
 
@@ -64,16 +70,22 @@ export function Day26() {
           </h1>
         </div>
         <hr />
-        <div >
-            <p> <CheckIcon /> <b>Unlimited Users</b></p>
-            <p><CheckIcon />5GB Storage</p>
-            <p><CheckIcon />Unlimited Public Projects</p>
-            <p><CheckIcon />Community Access</p>
-            <p><ClearIcon/>Unlimited Private Projects</p>
-            <p><ClearIcon/>Dedicated Phone Support</p>
-            <p><ClearIcon/><b>Unlimited</b>Free Subdomain</p>
-            <p><ClearIcon/>Monthly Satus Reports</p>
-            <Button id="button" variant="contained">Contained</Button>
+        <div>
+          <p>
+            ✔ <b>Unlimited Users</b>
+          </p>
+          <p>✔ 5GB Storage</p>
+          <p>✔ Unlimited Public Projects</p>
+          <p>✔ Community Access</p>
+          <p>✔ Unlimited Private Projects</p>
+          <p>✔ Dedicated Phone Support</p>
+          <p> 
+            <b>✔ Unlimited</b>Free Subdomain
+          </p>
+          <p>✔ Monthly Satus Reports</p>
+          <Button id="button" variant="contained">
+            Contained
+          </Button>
         </div>
       </div>
     </div>
