@@ -1,6 +1,4 @@
 import "./App.css";
-import CheckIcon from "@mui/icons-material/Check";
-import ClearIcon from "@mui/icons-material/Clear";
 import Button from "@mui/material/Button";
 
 export function Day26() {

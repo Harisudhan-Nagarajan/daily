@@ -13,10 +13,10 @@
 
 #card {
   width: 23rem;
-  height: 35rem;
+  height: 30rem;
   background-color: white;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   
 }
 #card:hover {
